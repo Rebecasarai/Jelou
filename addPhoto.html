@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Añadir imagen</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!--Custom css added and fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" ><strong>Jelou</strong>
+            <img src="images/logo.png" alt="Logo" style="width:40px;">
+          </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signUp.html">Registro  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="logIn.html">Entrar</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Perfil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="explore.html">Explorar</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="addPhoto.html">Añadir <span class="sr-only">(current)</span></a>
+                  </li>
+
+                  
+                  <li class="nav-item ">
+                    <a class="nav-link" href="updatePhoto.html">Modificar </a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 searchInput" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success my-2 my-sm-0 searchBtn" type="submit"> 
+
+                  <i class="fas fa-search"></i>
+
+                </button>
+              </form>
+            </div>
+          </nav>
+
+
+           <!--Login/Sign up-->
+           <div class="wrapper fadeInDown">
+            <div id="formContent">
+              <!-- Tabs Titles -->
+          
+              <!-- Icon -->
+              <div class="fadeIn first">
+                <img src="images/upload.jpg" alt="..." class="img-thumbnail rounded mx-auto d-block">
+              </div>
+          
+              <!-- Login Form -->
+              
+              <form>
+                
+                <input type="text" class="fadeIn second" name="title" placeholder="Titulo">
+                <input type="text" class="fadeIn second" name="login" placeholder="Descripción">
+                <input type="text" class="fadeIn third" name="login" placeholder="URL">
+
+                <a  class="pb-0 fadeIn third" strong>Añadir etiquetas <i class="fas fa-tag verde-ico " ></i></a>
+                <p class="p-0 m-0 fadeIn third">Escribelas separando por comas:</p>
+                <input type="text" class="fadeIn third" name="login" placeholder="Ejemplo: Planta, Zen..">
+                
+                <a href="addTag.html" class="pb-0 fadeIn third" strong>Crear nueva <i class="fas fa-tag verde-ico " ></i></a>
+                <p strong class="fadeIn third">Hacer imagen privada 
+                    <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label></p>
+                <input type="submit" class="fadeIn fourth" value="Publicar">
+              </form>
+          
+          
+            </div>
+          </div>
+
+
+
+
+          <footer class="text-center">
+            <a href="https://github.com/Rebecasarai/Jelou" strong style="color: black; text-align: center;"><h6>Enlace a repositorio de Github <i class="fab fa-github"></i></h6></a>
+        </footer>
+        </div> <!--Container-->
+</body>
+
+</html>

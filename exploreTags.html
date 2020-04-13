@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Explorar</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!--Custom css added and fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+
+
+    
+</head>
+
+<body>
+    <div class="container">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"><!--Navegador-->
+            <a class="navbar-brand" href="#" ><strong>Jelou</strong>
+            <img src="images/logo.png" alt="Logo" style="width:40px;">
+          </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signUp.html">Registro  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="logIn.html">Entrar</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Perfil </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="explore.html">Explorar <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="addPhoto.html">Añadir</a>
+                  </li>
+
+                  
+                  <li class="nav-item ">
+                    <a class="nav-link" href="updatePhoto.html">Modificar </a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 searchInput" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success my-2 my-sm-0 searchBtn" type="submit"> 
+
+                  <i class="fas fa-search"></i>
+
+                </button>
+              </form>
+            </div>
+          </nav><!--Navigation menu-->
+        
+        <div class="row">
+
+
+            <div class="col-12 col-sm-4">
+
+                
+<div id="accordion">
+  <div class="card card-explore">
+    <div class="card-header card-header-explore">
+      <a data-toggle="collapse" href="#collapseOne" class="verdeTtl">
+        <h5 class="list-group-item mb-0 pb-0 pt-4">Explorar por etiquetas <i class="fas fa-tag verde-ico" ></i></h5>
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+      <div class="card-body card-body-explore">
+        <div class="list-group ">
+            <a href="exploreTags.html" class="list-group-item list-group-item-action verde active">Escapada <span class="float-right">15.098</span></a>
+            <a href="exploreTags.html" class="list-group-item list-group-item-action verde">Romantico <span class="float-right">14.170</span></a>
+            <a href="exploreTags.html" class="list-group-item list-group-item-action verde">Atardecer <span class="float-right">13.005</span></a>
+            <a href="exploreTags.html" class="list-group-item list-group-item-action verde">Panoramica <span class="float-right">12.505</span></a>
+            <a href="exploreTags.html" class="list-group-item list-group-item-action verde">Hermandad <span class="float-right">11.805</span></a>
+            <a href="exploreTags.html" class="list-group-item list-group-item-action verde">Ver más...</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <a data-toggle="collapse" href="explore.html" class="whiter rojo" >
+    <h5 class="list-group-item">Ver fotos trending <i class="fas fa-heart rojo-ico whiter-ico" ></i></h5>
+  </a>
+
+    <div class="card card-explore">
+      <div class="card-header card-header-explore">
+        <a data-toggle="collapse" href="explore.html" class="rojoTtl">
+          <h5 class="list-group-item mb-0 pb-0">Ver usuarios trending <i class="fas fa-fire rojo-ico" ></i></h5>
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse show" data-parent="#accordion">
+        <div class="card-body card-body-explore">
+          <div class="list-group ">
+              <a href="exploreUers.html" class="list-group-item list-group-item-action rojo">@Shakira <span class="float-right">15m</span></a>
+              <a href="exploreUsers.html" class="list-group-item list-group-item-action rojo">@RickiMartin <span class="float-right">14m</span></a>
+              <a href="exploreUsers.html" class="list-group-item list-group-item-action rojo">@JLo <span class="float-right">11m</span></a>
+              <a href="exploreUsers.html" class="list-group-item list-group-item-action rojo">@Push8Up <span class="float-right">10m</span></a>
+              <a href="exploreUsers.html" class="list-group-item list-group-item-action rojo">JuanaMaria <span class="float-right">9m</span></a>
+              <a href="exploreUsers.html" class="list-group-item list-group-item-action rojo">Ver todos...</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+                
+
+
+
+
+            </div>
+
+          <div class="col-12 col-sm-7">
+            <h3 class="text-center py-4 mb-0">Imagenes de #Escapada</h3>
+            <div class="card">
+              <img class="card-img" src="images/playa.jpg" alt="Tarifa">
+              <div class="card-img-overlay text-center">
+                <a href="#" class="btn btn-light btn-sm text-center">Tarifa Tarifa</a>
+              </div>
+              <div class="card-body pb-2">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="card-title">@AnaMari24</h4>
+                    </div>
+                    <div class="col">
+                        <div class="stats text-right">
+                            <i class="far fa-thumbs-up text-info "></i> 147
+                            <i class="far fa-thumbs-down text-info ml-2"></i> 1
+                         <i class="far fa-comment text-info ml-2"></i> 2
+                       </div>
+                    </div>
+                </div>
+                
+                <p class="card-text">Oh, Tarifa bella.</p>
+                <small class="text-muted comments">
+                    <p><strong>@Titina3</strong> Iremos juntas!! Ya veras</p>
+                    <p><strong>@Juan23</strong> Uffff</p>
+                    
+                    
+                </small>
+                <div class="input-group mt-3">
+                    <input type="text" class="form-control m-0 text-center" placeholder="Comentar" aria-label="comment" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button">Publicar</button>
+                    </div>
+                  </div>
+
+                  
+                  <button  href="#" type="button" class="btn btn-light btn-sm mr-2 mt-2">Escapada</button >
+                    <button  href="#" class="btn btn-light btn-sm mr-2 mt-2">Landscape</button >
+                    <button  href="#" class="btn btn-light btn-sm mr-2 mt-2">Pretty</button >
+                  
+              </div>
+              <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
+                <div class="views">Abril 2, 12:45PM
+                </div>
+                <div class="stats text-left">
+                   Público
+                </div>
+                 
+              </div>
+            </div>
+
+
+            <div class="card">
+                <img class="card-img" src="images/bologna-1.jpg" alt="Bologna">
+                <div class="card-img-overlay text-center">
+                  <a href="#" class="btn btn-light btn-sm text-center">Bologna</a>
+                </div>
+                <div class="card-body pb-2">
+                  <div class="row">
+                      <div class="col">
+                          <h4 class="card-title">@JuanchoGM</h4>
+                      </div>
+                      <div class="col">
+                          <div class="stats text-right">
+                              <i class="far fa-thumbs-up text-info "></i> 392
+                              <i class="far fa-thumbs-down text-info ml-2"></i> 12
+                           <i class="far fa-comment text-info ml-2"></i> 1
+                         </div>
+                      </div>
+                  </div>
+                  
+                  <p class="card-text">Nostalgia.</p>
+                  <small class="text-muted comments">
+                      <p><strong>@Inma90</strong> 😍</p>
+                      
+                      
+                  </small>
+                  <div class="input-group mt-3">
+                      <input type="text" class="form-control m-0 text-center" placeholder="Comentar" aria-label="comment" aria-describedby="basic-addon2">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">Publicar</button>
+                      </div>
+                    </div>
+                    
+                    
+                    <button  href="#" type="button" class="btn btn-light btn-sm mr-2 mt-2">Landscape</button >
+                        <button  href="#" class="btn btn-light btn-sm mr-2 mt-2">Italy</button >
+                        <button  href="#" class="btn btn-light btn-sm mr-2 mt-2">Escapada</button >
+                    
+                </div>
+                <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
+                  <div class="views">Marzo 30, 9:02PM
+                  </div>
+                  <div class="stats text-left">
+                     Público
+                  </div>
+                   
+                </div>
+              </div>
+
+
+            
+          </div><!--Fin de Column central-->
+
+          <div class="col-12 col-sm-1">
+
+
+        </div>
+
+        </div>
+
+
+        <footer class="text-center">
+            <a href="https://github.com/Rebecasarai/Jelou" strong style="color: black; text-align: center;"><h6>Enlace a repositorio de Github <i class="fab fa-github"></i></h6></a>
+        </footer>
+        </div> <!--Container-->
+</body>
+
+</html>
